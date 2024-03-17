@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer Information | Solve Nexus</title>
+    <link rel="stylesheet" href="css/stylevolunteer.css">
+    <link rel="stylesheet" href="css/styleall.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                <img src="images\slogo.jpg" alt="solve-nexus-logo">
+            </a>
+            </div>
+            <nav>
+                <ul class="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="meet-the-team.html">Meet The Team</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="get-involved.html">Get Involved</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </header>
+
+        <!-- Volunteer Information Section -->
+        <section class="volunteer-info-section">
+            <div class="section-header">
+                <h1>Volunteer Information</h1>
+            </div>
+            <div class="section-content">
+                <p>Welcome to Solve Nexus's volunteer program! Our volunteers play a crucial role in helping us achieve our mission and make a positive impact in the community. Explore the various volunteering opportunities below and learn how you can get involved.</p>
+                <p>Ready to make a difference? Send us a registration email and join our team today!</p>
+            </div>
+        </section>
+
+        <!-- Volunteer Opportunities Section -->
+        <section class="volunteer-opportunities-section">
+            <div class="section-header">
+                <h2>Volunteer Opportunities</h2>
+            </div>
+            <div class="section-content">
+                <p>Discover the different ways you can volunteer with Solve Nexus:</p>
+                <ul>
+                    <li>Community outreach programs</li>
+                    <li>Technical projects</li>
+                    <li>Event coordination</li>
+                    <li>Fundraising initiatives</li>
+                    <!-- Add more volunteering opportunities as needed -->
+                </ul>
+                <p>Whether you're interested in working directly with individuals in need or supporting our organization behind the scenes, there's a volunteer role for you!</p>
+            </div>
+        </section>
+
+<!-- Volunteer Registration Button Section -->
+<section class="register-via-email-section">
+    <div class="section-header">
+        <h2>Register as a Volunteer</h2>
+    </div>
+    <div class="section-content">
+        <p>Click the button below to send us a message with your details:</p>
+        <button onclick="registerViaEmail()">Register via Email</button>
+    </div>
+</section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <div class="section-header">
+                <h2>Volunteer Testimonials</h2>
+            </div>
+            <div class="section-content">
+                <p>Here's what some of our volunteers have to say about their experience:</p>
+                <!-- Add volunteer testimonials here -->
+                <div class="testimonial">
+                    <blockquote>
+                        "Volunteering with Solve Nexus has been an incredibly rewarding experience. I've had the opportunity to make a direct impact in my community and connect with amazing people along the way."
+                    </blockquote>
+                    <cite>- John Doe, Volunteer</cite>
+                </div>
+                <!-- Add more testimonials as needed -->
+            </div>
+        </section>
+
+    </div>
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-body">
+            <i class="fas fa-gamepad"></i>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="terms-of-use.html">Terms of Use</a></li> <!-- Add Terms of Use link -->
+            </ul>
+            <ul class="social-links">
+                <li><a href="https://discord.com/invite/YUnXnMQMNh"><img src="images\discord.jpg" alt="Discord"></a></li>
+                <li><a href="https://www.instagram.com/solve.nexus?igsh=dml6aHFiNjE1czU1"><img src="images\instagram.jpg" alt="Instagram"></a></li>
+                <li><a href="https://www.tiktok.com/@solve.nexus?_t=8kGpHamMQk5&_r=1"><img src="images\TikTok.jpg" alt="TikTok"></a></li>
+                <li><a href="https://www.linkedin.com/company/solve-nexus/"><img src="images\LinkedIn.jpg" alt="LinkedIn"></a></li>
+            </ul>
+        </nav>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Solve Nexus. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function registerViaEmail() {
+            var subject = "Volunteer Registration Request";
+            var body = "Dear Solve Nexus Team,\n\nI am interested in volunteering with your organization. Please consider this email as my registration request.\n\nThank you.\n\nSincerely, [Your Name]";
+
+            // Construct the mailto URL
+            var mailtoLink = "mailto:solvenexus@gmail.com" +
+                             "?subject=" + encodeURIComponent(subject) +
+                             "&body=" + encodeURIComponent(body);
+
+            // Open the user's default email client
+            window.location.href = mailtoLink;
+        }
+    </script>
+    <script async data-id="1265522571" id="chatling-embed-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+</body>
+</html>
+

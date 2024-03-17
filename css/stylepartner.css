@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.partner-info-section {
+    max-width: 600px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+/* Partner Page Styles */
+
+.partner-info-section {
+    margin-top: 170px; /* Adjust margin-top to create more space between header and content */
+}
+
+.partner-info-section h2 {
+    font-size: 32px;
+    font-weight: bold; /* Make the headers bold */
+    color: #0c0c0c; /* Adjust heading color */
+    margin-bottom: 20px; /* Add space below the header */
+}
+
+.partner-info-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000000; /* Adjust paragraph text color */
+    margin-bottom: 10px; /* Add space below paragraphs */
+}
+
+
+
+.partner-info-section button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.partner-info-section button:hover {
+    background-color: #0056b3;
+}
+
+
+

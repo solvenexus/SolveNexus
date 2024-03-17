@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Involved with Solve Nexus</title>
+    <link rel="stylesheet" href="css/styleinvolved.css">
+    <link rel="stylesheet" href="css/styleall.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/slogo.jpg" alt="solve-nexus-logo">
+                </a>
+            </div>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="meet-the-team.html">Meet The Team</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="get-involved.html">Get Involved</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content-wrapper">
+            <div class="content-desc">
+                <h1>Get Involved with Solve Nexus</h1>
+                <p>Welcome to the Get Involved page of Solve Nexus! This is where you can find opportunities to contribute your skills, time, and resources to help solve real-world problems and make a positive impact in the community.</p>
+            </div>
+        </div>
+
+        <!-- Volunteer Opportunities Section -->
+        <section class="section-1">
+            <div class="section-1-wrapper">
+                <h2>Volunteer Opportunities</h2>
+                <img src="images\volunteer.jpg" alt="Volunteer Image">
+                <p>Join us in our mission to create positive change by volunteering your time and expertise. We offer various volunteer opportunities ranging from community outreach programs to technical projects. Find the perfect opportunity to make a difference!</p>
+                <p>Stay tuned for upcoming events and initiatives where you can get involved and contribute to meaningful projects that address pressing issues in society.</p>
+                <button class="btn volunteer-btn"><a href="volunteer-info.html">Volunteer Now</a></button> <!-- Redirect to volunteer-info.html -->
+            </div>
+        </section>
+
+        <!-- Donation Section -->
+        <section class="section-2">
+            <div class="section-2-wrapper">
+                <h2>Make a Donation</h2>
+                <img src="images\donate.jpg" alt="Donation Image">
+                <p>Your generous donations play a crucial role in supporting our initiatives and projects. Every contribution helps us continue our mission of solving complex problems and making the world a better place for all.</p>
+                <p>Donate today and be a part of the solution!</p>
+                <button class="btn donate-btn">Donate Now</button>
+            </div>
+        </section>
+
+        <!-- Partner With Us Section -->
+        <section class="section-3">
+            <div class="section-3-wrapper">
+                <h2>Partner With Us</h2>
+                <img src="images\parnter.jpg" alt="Partner Image">
+                <p>We believe in the power of collaboration to drive positive change. Partner with Solve Nexus to leverage your organization's resources, expertise, and network to address social, environmental, and economic challenges.</p>
+                <p>Contact us to explore partnership opportunities and together, we can create meaningful impact.</p>
+                <button class="btn partner-btn"><a href="partner-info.html">Partner Now</a></button> <!-- Redirect to partner-info.html -->
+            </div>
+        </section>
+
+        <section class="section-4">
+            <div class="section-4-wrapper">
+                <h2>Join Our Community</h2>
+                <img src="images\community.jpg" alt="Community Image">
+                <p>Become a part of the Solve Nexus community and connect with others who share your passion for supporting individuals affected by addiction. Follow us on social media, join our online forums and chat groups, and attend our community events and workshops. Together, we can create a supportive and inclusive environment where everyone feels welcome and supported.</p>
+                <button class="btn"><a href="https://discord.com/invite/YUnXnMQMNh" target="_blank">Join Community</a></button>
+            </div>
+        </section>
+
+        <section class="section-5">
+            <div class="section-5-wrapper">
+                <p>Ready to get involved?</p>
+                <p>Have questions about how you can support Solve Nexus?</p>
+                <p>Get in touch with our team today.</p>
+                <p>We're excited to work with you and make a positive impact together.</p>
+                <button class="btn"><a href="mailto:solvenexus@gmail.com">Contact Us</a></button>
+            </div>
+        </section>
+    </div>        
+
+    
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-body">
+            <i class="fas fa-gamepad"></i>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="terms-of-use.html">Terms of Use</a></li> <!-- Add Terms of Use link -->
+            </ul>
+            <ul class="social-links">
+                <li><a href="https://discord.com/invite/YUnXnMQMNh"><img src="images\discord.jpg" alt="Discord"></a></li>
+                <li><a href="https://www.instagram.com/solve.nexus?igsh=dml6aHFiNjE1czU1"><img src="images\instagram.jpg" alt="Instagram"></a></li>
+                <li><a href="https://www.tiktok.com/@solve.nexus?_t=8kGpHamMQk5&_r=1"><img src="images\TikTok.jpg" alt="TikTok"></a></li>
+                <li><a href="https://www.linkedin.com/company/solve-nexus/"><img src="images\LinkedIn.jpg" alt="LinkedIn"></a></li>
+            </ul>
+        </nav>
+        <div class="footer-bottom">
+                <p>&copy; 2024 Solve Nexus. All rights reserved.</p>
+            </div>
+        </footer>
+
+    <!-- JavaScript to handle button clicks and show modals -->
+    <script>
+    document.querySelector('.volunteer-btn').addEventListener('click', function() {
+        window.location.href = 'volunteer-info.html'; // Redirect to volunteer-info.html
+    });
+
+    document.querySelector('.donate-btn').addEventListener('click', function() {
+    // Replace 'YOUR_PAYPAL_EMAIL' with your PayPal email address or donation URL
+    var paypalUrl = 'https://www.paypal.com/paypalme/alisealise222@gmail.com';
+    window.open(paypalUrl, '_blank'); // Open in a new window/tab
+});
+
+    document.querySelector('.partner-btn').addEventListener('click', function() {
+        window.location.href = 'partner-info.html'; // Redirect to partner-info.html
+    });
+    </script>
+        <script async data-id="1265522571" id="chatling-embed-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+</body>
+</html>
+
+
+
+
+
+

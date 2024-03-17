@@ -1,0 +1,75 @@
+
+
+/* Privacy Policy Section */
+.privacy-policy-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+.privacy-policy-section h1 {
+    font-size: 2.5rem;
+    color: #171717;
+    margin-top: 100px; /* Increase the top margin */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.privacy-policy-section h2 {
+    font-size: 1.8rem;
+    color: #4d4c4c;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Styles */
+.privacy-policy-section p {
+    font-size: 1.1rem;
+    color: #464444;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Link Styles */
+.privacy-policy-section a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.privacy-policy-section a:hover {
+    color: #0056b3;
+}
+
+/* List Styles */
+.privacy-policy-section ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+/* Contact Information Styles */
+.privacy-policy-section .contact-info {
+    margin-top: 30px;
+}
+
+.privacy-policy-section .contact-info p {
+    font-size: 1.1rem;
+    color: #535151;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.privacy-policy-section .contact-info a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.privacy-policy-section .contact-info a:hover {
+    color: #0056b3;
+}
+

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #d3c3eb;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* Content desc starts here */
+.content-wrapper {
+    width: 80%;
+    min-height: 60vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+.content-desc {
+    margin-bottom: -50px; /* Adjust the margin bottom to reduce the gap */
+}
+
+
+.content-desc h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.content-desc p {
+    width: 95%; /* Increase width to make the paragraph wider */
+    max-width: 800px; /* Set a maximum width for better readability */
+    margin: 0 auto; /* Center the paragraph */
+    font-size: 1.3rem;
+    line-height: 2rem; /* Adjust line height for better readability */
+    margin-bottom: 10px; /* Increase margin bottom for spacing */
+    color: #000000;
+}
+
+/* Adjust the size and alignment of team member images */
+.team-section {
+    display: flex;
+    justify-content: center; /* Center the team members horizontally */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    margin-bottom: 200px; /* Reduce the top margin to decrease the gap */
+}
+
+.team-member {
+    max-width: 300px; /* Limit the width of the team member box */
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    flex: 1 1 300px; /* Ensure equal width for all team member boxes */
+}
+
+.team-member h3 {
+    font-size: 1.5rem; /* Adjust heading size */
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 1rem; /* Adjust paragraph size */
+    margin-bottom: 10px;
+}
+
+.team-member img {
+    max-width: 100%; /* Make sure images don't exceed the container width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px;
+}
+
+#abdur-image {
+    max-width: 190px; /* Adjust the max-width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+#paula-image {
+    max-width: 260px; /* Adjust the max-width as needed */
+    height: 45%; /* Maintain aspect ratio */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

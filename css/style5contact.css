@@ -1,0 +1,161 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Typography */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    padding-top: 10%; /* Add padding to the top of the body */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Content Description Section */
+.content-desc {
+    max-width: 800px;
+    margin: 30px auto 50px; /* Adjust margin */
+    padding: 30px;
+    text-align: center;
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+.content-desc.no-box {
+    background-color: transparent; /* Remove background color */
+    box-shadow: none; /* Remove box shadow */
+    border-radius: 0; /* Remove border radius */
+}
+
+.content-desc h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.content-desc p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+/* FAQs Section */
+.faqs {
+    max-width: 800px;
+    margin: 50px auto; /* Center the content and add some top margin */
+    padding: 30px;
+    text-align: left; /* Align text to the left */
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+}
+
+.faqs h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.faqs ul {
+    padding-left: 0; /* Remove default left padding */
+}
+
+.faqs ul li {
+    list-style-type: none; /* Remove bullet points */
+    margin-bottom: 20px;
+}
+
+.faqs ul li strong {
+    font-weight: bold;
+}
+
+
+/* Call Us, Email Us, Live Chat Boxes */
+.contact-info-box {
+    max-width: 800px;
+    margin: -20px auto 30px; /* Move it up */
+    padding: 20px;
+    text-align: left;
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+.contact-info-box p {
+    font-size: 1rem; /* Adjust font size */
+    line-height: 1.5rem; /* Adjust line height */
+    margin-bottom: 15px; /* Adjust margin bottom */
+}
+
+.contact-info-box a {
+    color: #333; /* Set link color */
+    text-decoration: underline; /* Add underline */
+    transition: color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.contact-info-box a:hover {
+    color: #644294; /* Darken link color on hover */
+}
+
+.contact-info-box a[href^="mailto"] {
+    color: blue; /* Set email link color to blue */
+}
+
+.connect-container {
+    max-width: 800px;
+    margin: 50px auto; /* Center the container */
+    padding: 30px;
+    text-align: center; /* Center the text */
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+.connect-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.connect-social-links {
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Align items to the right */
+}
+
+.connect-social-links li {
+    margin-left: 10px; /* Add margin between icons */
+}
+
+.connect-social-links img {
+    width: 40px; /* Adjust the width of the images */
+    height: 40px; /* Adjust the height of the images */
+}
+
+.connect-social-links .social-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.connect-social-links .social-link:hover {
+    color: #644294;
+}
+
+
+/* Footer Section */
+footer {
+    background-color: #644294;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+

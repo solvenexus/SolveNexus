@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.content-wrapper {
+    width: 80%;
+    min-height: 80vh;
+    margin: 0px auto 0; /* Adjust margin-top to move the section up */
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center;
+    color: #050505;
+    text-align: center;
+}
+
+
+.content-desc {
+    max-width: 800px; /* Limit the maximum width of the content */
+}
+
+.content-desc h1 {
+    font-size: 3rem;
+    margin-bottom: 20px; /* Add more space below the heading */
+    color: #2c3e50; /* Change heading color */
+}
+
+.content-desc p {
+    width: 100%; /* Make paragraphs take full width */
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 20px; /* Add more space below paragraphs */
+    color: #34495e; /* Change paragraph text color */
+}
+
+
+.section-container {
+    position: relative; /* Set the position of the container to relative */
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Spread sections evenly */
+    align-items: flex-start; /* Align sections at the start vertically */
+    padding: 20px; /* Add padding around sections */
+    box-sizing: border-box; /* Include padding in width calculation */
+    flex-wrap: wrap; /* Allow sections to wrap to the next line */
+}
+
+/* Individual section styles */
+.section-1,
+.section-2,
+.section-3,
+.section-4 {
+    width: calc(50% - 20px); /* Adjust width as needed */
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    margin-bottom:20px; /* Add margin between sections */
+    border-radius: 10px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Adjust the width for the first and second sections */
+.section-1 {
+    margin-top: -160px; /* Adjust as needed */
+    margin-right: 20px; /* Add margin between sections */
+    min-height: 270px; /* Set minimum height for section 1 */
+}
+
+.section-3 {
+    margin-top: -0px; /* Add margin between sections */
+    margin-right: auto; /* Add margin between sections */
+    min-height: 500px; /* Set minimum height for section 3 */
+}
+
+
+/* Adjust the width for the third and fourth sections */
+.section-2 {
+    margin-left: auto; /* Push sections to the right */
+    margin-top: -510px; /* Adjust vertical alignment */
+    min-height: 470px; /* Set minimum height for section 2 */
+}
+
+
+.section-4 {
+    margin-left: auto; /* Push sections to the right */
+    margin-top: -520px; /* Adjust vertical alignment */
+    min-height: 500px; /* Set minimum height for section 4 */
+}
+
+.section-5 {
+    margin-bottom: 70px; /* Add margin bottom to create space between the last section and the footer */
+}
+
+
+/* Apply styles to section headings */
+.section-1 h2,
+.section-2 h2,
+.section-3 h2,
+.section-4 h2,
+.section-5 h2 {
+    color: #5911cc;
+    margin-bottom: 20px;
+}
+
+/* CSS styles for section 5 */
+.section-5-wrapper {
+    text-align: center; /* Center-align text */
+}
+
+.section-5-wrapper p {
+    margin-bottom: 10px; /* Add space below each paragraph */
+    font-size: 1.1rem; /* Adjust font size */
+    line-height: 1.6rem; /* Adjust line height */
+}
+
+.section-5-wrapper .btn {
+    display: block; /* Change button display to block */
+    margin: 0 auto; /* Center-align button */
+}
+
+.section-3-wrapper p {
+    margin-top: 10px; /* Add top margin to move the text down */
+}
+
+/* Individual section image styles */
+.section-1 img,
+.section-2 img,
+.section-3 img {
+    width: 50%; /* Set the width to fill the container */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+    max-height: 200px; /* Set the maximum height for the images */
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.section-4 img {
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+    max-height: 215px; /* Set the maximum height for the images */
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+/* Style the buttons */
+.btn {
+    background-color: #7c5da4;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block; /* Make buttons behave as inline-block elements */
+    font-weight: bold;
+}
+
+/* Hover effect for buttons */
+.btn:hover {
+    background-color: #6a1b9a;
+}
+
+/* Style the anchor tags within buttons */
+.btn a {
+    color: inherit; /* Inherit text color from the button */
+    text-decoration: none; /* Remove underline */
+}
+/* Style the donation button */
+.donate-btn {
+    margin-top: 50px; /* Adjust the margin-top value to move the button down */
+}
+
+/* Style the donation button */
+.partner-btn {
+    margin-top: 10px; /* Adjust the margin-top value to move the button down */
+}
+
+/* Style the "Join Community" button */
+.section-4-wrapper .btn {
+    margin-top: 20px; /* Adjust the margin-top value to move the button down */
+}
+
+
+
+
+
+
+
+

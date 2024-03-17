@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* Content desc starts here */
+.content-wrapper {
+    width: 80%;
+    min-height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #221919;
+    margin-top: 10vh;
+}
+.content-desc {
+    position: relative;
+
+}
+.content-desc h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    left: 50%;
+    transform: translateX( 115%);
+}
+
+.content-desc p {
+    width: 550px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 10px;
+}
+
+.service-section {
+    padding: 30px 0;
+    text-align: center;
+    margin-bottom: 20px; /* Add space between sections */
+}
+
+.service {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.service h3 {
+    font-size: 1.8rem; /* Adjust heading size */
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1.1rem; /* Adjust paragraph size */
+    margin-bottom: 10px;
+}
+
+.section-1 {
+    background-color: #e6e6fa;
+}
+
+.section-2 {
+    background-color: #a4c0c9;
+}
+
+.section-3 {
+    background-color: #d3d3e6;
+}
+
+.section-4 {
+    background-color: #c0c0ff;
+}
+
+.section-5 {
+    background-color: #7f98a1;
+}
+
+.section-6 {
+    background-color: #c0e7ec;
+}
+
+.section-7 {
+    background-color: #c9b6e2;
+}
+
+/* Adjust image size in section 7 */
+.section-7 img {
+    max-width: 300px; /* Set the maximum width of the image */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    margin-right: 20px; /* Add some margin between the image and the text */
+}
+
+.section-8 {
+    background-color: #a7b8ac;
+}
+.custom-paragraph {
+    font-size: 1.3rem; /* Adjust font size */
+    line-height: 2rem; /* Adjust line height */
+    text-align: center; /* Center text horizontally */
+    margin: 0 auto 20px; /* Center paragraph horizontally and add bottom margin */
+    margin-left: 55%;
+    
+}
+.custom-heading {
+margin-right: 230px;
+}
+
+.content-desc {
+    text-align: left; /* Center align the content */
+    margin-top: 10px; /* Add space above the content */
+}
+
+.learn-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7646cf;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px; /* Add margin top */
+    margin-left: 550px; /* Adjust left margin */
+}
+
+
+
+.learn-more-btn:hover {
+    background-color: #4c1ea1;
+    cursor: pointer;
+    
+}
+
+.button-wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.next-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7646cf;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.next-btn:hover {
+    background-color: #4c1ea1;
+    cursor: pointer;
+}
+.content-desc {
+    position: relative;
+}
+
+.content-desc img {
+    position: absolute;
+    top: auto; /* Adjust as needed */
+    bottom: -20px;
+    right: -630px; /* Align images to the right */
+    margin-left: 350px; /* Add some margin between the image and the text */
+    width: 420px; /* Increase image width */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+
