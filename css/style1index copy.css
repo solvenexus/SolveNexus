@@ -97,7 +97,36 @@
 }
 
 
+/* style1index.css or styleall.css */
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 100%;
+    }
+  
+    .navbar li {
+      display: block;
+    }
+  
+    .content-wrapper {
+      flex-direction: column;
+    }
+  
+    .solve-nexus-image {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .footer-body i {
+      font-size: 2rem;
+    }
+  }
 
 
 
