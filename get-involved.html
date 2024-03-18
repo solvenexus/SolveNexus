@@ -16,8 +16,9 @@
                     <img src="images/slogo.jpg" alt="solve-nexus-logo">
                 </a>
             </div>
+            <button class="menu-toggle" onclick="toggleMenu()">&#9776;</button>
             <nav>
-                <ul class="navbar">
+                <ul class="navbar" id="navbar">
                     <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="meet-the-team.html">Meet The Team</a></li>
@@ -113,6 +114,12 @@
             </div>
         </footer>
 
+        <script>
+            function toggleMenu() {
+                var navbar = document.getElementById('navbar');
+                navbar.classList.toggle('active');
+            }
+        </script>
     <!-- JavaScript to handle button clicks and show modals -->
     <script>
     document.querySelector('.volunteer-btn').addEventListener('click', function() {

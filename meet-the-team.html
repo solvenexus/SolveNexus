@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Meet the Team - Solve Nexus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKA4zWg6bqjZOHLfOkMxrqTdV2t3g0N+Qo8g4mWtsI23bSrYExwE6PnjP6TzY9FjFfqYgZXJ/ZCGJN3tjz/3EQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style2meet copy.css">
     <link rel="stylesheet" href="css/styleall.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -16,18 +16,20 @@
                 <a href="index.html">
                 <img src="images\slogo.jpg" alt="solve-nexus-logo">
             </a>
-            </div>
-            <nav>
-                <ul class="navbar">
-                <li><a href="index.html">Home</a></li>
+        </div>
+        <button class="menu-toggle" onclick="toggleMenu()">&#9776;</button>
+        <nav>
+            <ul class="navbar" id="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="meet-the-team.html" class="active">Meet The Team</a></li>
+                <li><a href="meet-the-team.html">Meet The Team</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="get-involved.html">Get Involved</a></li>
                 <li><a href="resources.html">Resources</a></li>
                 <li><a href="contact-us.html">Contact Us</a></li>
             </ul>
-        </header>
+        </nav>
+    </header>
 
         <div class="content-wrapper">
             <div class="content-desc">
@@ -86,6 +88,12 @@
                 
                     </div>
                     <script async data-id="1265522571" id="chatling-embed-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+                    <script>
+                        function toggleMenu() {
+                            var navbar = document.getElementById('navbar');
+                            navbar.classList.toggle('active');
+                        }
+                    </script>
                 </body>
                 </html>
 

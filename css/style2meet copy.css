@@ -88,36 +88,60 @@ body {
 }
 
 
-/* style1index.css or styleall.css */
+/* Add this CSS for menu toggle button */
+.menu-toggle {
+    display: none; /* Hide the toggle button by default */
+    background: none; /* Transparent background */
+    border: none; /* Remove border */
+    color: #FFFFFF; /* Text color */
+    font-size: 20px; /* Adjust font size */
+    cursor: pointer; /* Change cursor to pointer */
+    padding: 5px; /* Add padding to make it clickable */
+}
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .container {
-      max-width: 100%;
+/* Media query to display the toggle button on smaller screens */
+@media only screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block; /* Show the toggle button for smaller screens */
+        position: absolute; /* Position it relative to the header */
+        top: 50%; /* Align it vertically */
+        right: 10px; /* Align it to the right side */
+        transform: translateY(-50%); /* Center it vertically */
     }
-  
-    .navbar li {
-      display: block;
+
+    /* Hide the navbar by default on smaller screens */
+    ul.navbar {
+        display: none;
+        flex-direction: column; /* Stack items vertically */
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #644294; /* Background color for the dropdown */
+        width: 100%; /* Full width of the screen */
+        padding: 10px 0; /* Add padding to the dropdown */
     }
-  
-    .content-wrapper {
-      flex-direction: column;
+
+    /* Show the navbar when the toggle button is clicked */
+    ul.navbar.active {
+        display: flex; /* Show the navbar when active */
     }
-  
-    .solve-nexus-image {
-      width: 100%;
+
+    /* Adjust margin for each item in the dropdown */
+    ul.navbar li {
+        margin: 5px 0; /* Adjust margin for each item in the dropdown */
+        text-align: center; /* Center align the text */
     }
-  }
-  
-  @media screen and (max-width: 480px) {
-    .footer-body i {
-      font-size: 2rem;
+
+    /* Add padding to each link */
+    ul.navbar li a {
+        padding: 10px; /* Add padding to each link */
     }
-  }
+}
+    /* Move the "Home" link a bit to the left */
+    ul.navbar li:first-child {
+        margin-left: 7px; /* Adjust margin for the first item */
+    }
+
 
 
 
